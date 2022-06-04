@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@100;300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.headermainsection {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+  position: fixed;
+  z-index: 1;
+}
+.headermaindiv1 {
+  height: 80px;
+  width: 95%;
+  background-color: black;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headermaindiv3 {
+  color: white;
+  font-size: 20px;
+  height: 50px;
+  width: 220px;
+  align-items: center;
+}
+.headermaindiv3 p {
+  font-size: 16px;
+}
+.headermaindiv3 h4 {
+  font-size: 17px;
+}
+.headermaindiv3 svg {
+  color: white;
+}
+ .headermaindiv4 button {
+    background-color: orange;
+    transition: 0.3s;
+}
+.headermaindiv4 button:hover{
+background-color: orangered;
+}
